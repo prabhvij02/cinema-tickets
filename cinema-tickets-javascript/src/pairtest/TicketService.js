@@ -22,7 +22,6 @@ export default class TicketService {
   };
 
   // Constructor to initialize payment and reservation services
-  // Might consider using dependency injection for these services
   constructor(
     ticketPaymentService = new TicketPaymentService(),
     seatReservationService = new SeatReservationService()
